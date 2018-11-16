@@ -6,10 +6,14 @@
   "author": "Clayton Ray <iamclaytonray@gmail.com> (https://iamclaytonray.com/)",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel index.html books.html",
+    "build": "parcel build index.html books.html",
+    "prettier": "npx prettier --write '*.html'"
   },
   "dependencies": {
     "parcel": "1.10.2"
+  },
+  "devDependencies": {
+    "prettier": "1.15.2"
   }
 }
